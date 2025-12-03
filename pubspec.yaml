@@ -1,0 +1,52 @@
+name: aura_track
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  permission_handler: ^12.0.1
+  audioplayers: ^6.5.1
+  supabase_flutter: ^2.10.3
+  provider: ^6.0.0
+  sensors_plus: ^7.0.0
+  pedometer: ^4.1.1
+  google_fonts: ^6.0.0
+  flutter_svg: ^2.0.0
+  intl: ^0.18.0
+  table_calendar: ^3.0.9
+  uuid: ^4.0.0
+  cupertino_icons: ^1.0.8
+  flutter_dotenv: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^2.3.1
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^5.0.0
+
+flutter_native_splash:
+  color: "#E0F2F1"
+  image: "lib/assets/images/aura_logo.png"
+  android_12:
+    image: "lib/assets/images/aura_logo.png"
+    color: "#E0F2F1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "lib/assets/images/aura_track.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - lib/assets/sound/
+    - lib/assets/images/

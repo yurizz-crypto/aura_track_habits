@@ -1,0 +1,113 @@
+# Flutter/Dart/Pub related
+**/doc/api/
+**/.history/
+.history/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+history/
+.env
+
+# Web specific
+web/build/
+
+# Symbolication files
+app.*.symbols
+
+# Android
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/key.properties
+/android/local.properties
+/android/app/google-services.json
+
+# iOS
+ios/.generated/
+ios/Flutter/.last_build_id
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/flutter_assets_asset_variant_filters.json
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/ephemeral
+**/macos/Flutter/Flutter-Debug.xcconfig
+**/macos/Flutter/Flutter-Release.xcconfig
+**/xcuserdata
+
+# Generated Dart files
+**/*.g.dart
+**/*.freezed.dart
+**/*.config.dart
+
+# IDEs
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.iml
+*.ipr
+*.iws
+*.ws
+*.swp
+*.swo
+
+.history/
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary directories
+tmp/
+temp/
+
+# Firebase
+firebase.json
+firestore.rules
+firestore.indexes.json
+cloud.firestore.rules
+storage.rules
+
+# Exceptions (files to include despite rules)
+!pubspec.lock
+!.packages
