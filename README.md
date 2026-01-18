@@ -1,4 +1,4 @@
-# **🌿 Aura Track**
+# **🌿 Aura Track** [Inactive]
 
 **Gamify your wellness journey. Grow your garden, grow yourself.**
 
